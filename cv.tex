@@ -1,9 +1,16 @@
 \documentclass[a4paper,11pt]{article}
 \usepackage{fullpage}
 \usepackage{hyperref}
+\usepackage{nopageno}
+\usepackage{anysize}
 
 \setlength{\parindent}{0pt}
 \hypersetup{pdfborder=0 0 0}
+
+\marginsize{40pt}{40pt}{30pt}{30pt}
+
+\def\companystrut{\rule{0pt}{1.2\normalbaselineskip}}
+\def\descriptionstrut{\rule{0pt}{0.9\normalbaselineskip}}
 
 \begin{document}
 
@@ -12,52 +19,76 @@
   Full-stack software engineer — London, U.K.
 
   \texttt{
-    \href{mailto:mail@gosha.net}{mail@gosha.net} /
-    \href{https://gosha.net}{https://gosha.net}
+    \href{mailto:mail@gosha.net}{mail@gosha.net} —
+    \href{https://gosha.net}{https://gosha.net} —
+    \href{https://github.com/goshatch}{https://github.com/goshatch}
   }
 \end{center}
 
-\textit{I value product insight and care for the people who use that product over technical dogmatism, and I know when “I don’t know, but let me find out” is the best possible answer.}
+I value product insight and care for the people who use that product over
+technical dogmatism, and I know when “I don’t know, but let me find out” is the
+best possible answer.
 
 \subsection*{Relevant work experience}
 
-\begin{tabular}{ p{5em} p{34em} }
-  2021–now & \textbf{Indeed Flex} Software engineer (contract)\\
-  & Full-stack engineer on the Internal Operations team, building and improving tools that enable operational excellence across the company as it undergoes rapid growth.\\
+\begin{tabular}{ p{4.5em} p{41.5em} }
+  2021–now & \textbf{Indeed Flex} (London, U.K.) Software engineer (contract)\\
+           & \descriptionstrut Full-stack engineer on the Internal Operations team,
+             building and improving tools that enable operational excellence across the
+             company as it undergoes rapid growth.\\
 
-  2019–2020 & \textbf{Natural Sitter} Tech lead (contract)\\
-  & As the sole engineer on a 3-person team, architected, built, and launched a pet-sitting platform serving the Tokyo area, together with the supporting infrastructure.\\
+  2019–2020\companystrut & \textbf{Natural Sitter} (Remote) Tech lead (contract)\\
+           & \descriptionstrut As the sole engineer on a 3-person team, designed, built,
+             and launched a pet-sitting platform serving the Tokyo area, together with the
+             supporting infrastructure — {\sc ci/cd}, payments, etc.\\
 
-  2018–now & \textbf{A Possible Space} Partner\\
-  & Leading a small, multi-disciplinary creative studio, taking on projects at the intersection of technology and the visual arts.\\
+  2018–now\companystrut & \textbf{A Possible Space} (London, U.K.) Partner\\
+           & \descriptionstrut Leading a small, multi-disciplinary creative studio,
+             taking on projects at the intersection of technology and the visual arts.\\
 
-  2016–2017 & \textbf{Moneytree K.K.} Software engineer (contract)\\
-  & As part of Moneytree’s front-end engineering team, helped build the mobile Web app to feature parity with native apps, and helped migrate the tooling from Angular to React.\\
+  2016–2017\companystrut & \textbf{Moneytree K.K.} (Tokyo, Japan) Software engineer (contract)\\
+           & \descriptionstrut As part of Moneytree’s front-end engineering team, helped
+             build the mobile Web app to feature parity with native apps, and helped migrate
+             the tooling from Angular to React.\\
 
-  2013–2016 & \textbf{AQ} Technical director, {\sc then} Software engineer (contract)\\
-  & As AQ’s first engineering hire, put in place engineering systems, processes, and best practices, while at the same time working on diverse client projects, ranging from prototyping work to full-scale web apps. By the end of my tenure, AQ has acquired the capability of taking on engineering work in addition to the company’s well-established design business. Clients: Google, ASICS, Seiko, etc.\\
+  2013–2016\companystrut & \textbf{AQ} (Tokyo, Japan) Technical director, {\sc then} Software engineer (contract)\\
+           & \descriptionstrut As AQ’s first engineering hire, put in place engineering
+             systems, processes, and best practices, while at the same time working on
+             diverse client projects, ranging from prototyping work to full-scale web apps.
+             By the end of my tenure, AQ has acquired the capability of taking on engineering
+             work in addition to the company’s well-established design business. Clients:
+             Google, ASICS, Seiko, etc.\\
 
-  2011–2013 & \textbf{COOKPAD Inc.} UI Engineer\\
-  & As part of the UI team, helped bring a mobile-first UI to one of the world’s larges Rails apps, serving a multi-million-strong audience on a daily basis. As part of the internal start-up team, launched a cooking school search engine featuring various business tie-ins.\\
+  2011–2013\companystrut & \textbf{COOKPAD Inc.} (Tokyo, Japan) UI Engineer\\
+           & \descriptionstrut As part of the UI team, helped bring a mobile-first UI to
+             one of the world’s larges Rails apps, serving a multi-million-strong audience on
+             a daily basis. As part of the internal start-up team, launched a cooking school
+             search engine featuring various business tie-ins.\\
 
-  2010–2011 & \textbf{Local Republic} Co-founder\\
-  & Co-founded a civic tech startup aimed at empowering local communities to work together and collabo- rate with local governments to solve local issues. Responsibilities included UI/UX design and develop- ment, customer success, and more.\\
+  2010–2011\companystrut & \textbf{Local Republic} (Berlin, Germany) Co-founder\\
+           & \descriptionstrut Co-founded a civic tech startup aimed at empowering local
+             communities to work together and collaborate with local governments to solve
+             local issues. Responsibilities included UI/UX design and development, customer
+             success, and more.\\
 \end{tabular}
 
 \subsection*{Education}
 
-\begin{tabular}{ p{5em} p{30em} }
+\begin{tabular}{ p{4.5em} p{30em} }
   2019 & \textbf{Royal College of Art}, M.A. Photography\\
-  2010 & \textbf{Keio School of Media Design × P2PU}, Digital Journalism\\
-  2005 & \textbf{EPITECH}, M.Sc. Information Technology\\
+  2010\descriptionstrut & \textbf{Keio School of Media Design × P2PU}, Digital Journalism\\
+  2005\descriptionstrut & \textbf{EPITECH}, M.Sc. Information Technology\\
 \end{tabular}
 
 \subsection*{Tech stack}
 
-Primarily working with Ruby on Rails (13+ years of experience) and JS/TS (10+ years of experience), Clojure (1+ year of experience). Happy to pick up new technologies.
+Primarily working with Ruby on Rails (13+ years of experience) and
+JavaScript/TypeScript (10+ years of experience), Clojure (1+ year of
+experience). Happy to pick up new technologies.
 
 \subsection*{Languages}
 
-Fluent in English, French, Russian. Conversational Japanese, basic Mandarin Chinese.
+Fluent in English, French, Russian. Conversational Japanese, basic Mandarin
+Chinese and Spanish.
 
 \end{document}
